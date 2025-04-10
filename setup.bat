@@ -41,6 +41,7 @@ echo Go to the yolov5 directory
 cd yolov5
 echo Install requirements
 python -m pip install -U -r requirements.txt
+pause
 
 rem -------------------------
 rem Step4: Move the Dataset to yolov5 directory
@@ -48,6 +49,7 @@ rem -------------------------
 
 echo Moving
 move Weed-29 yolov5\
+pause
 
 rem -------------------------
 rem Step5: Train the model
